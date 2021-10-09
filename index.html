@@ -9,6 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"> 
+    <style>
+    footer{
+    position: fixed;
+    bottom: 0;width: 100%;
+    text-align: center;
+}</style>
 </head>
 <body><div class="wrap">
     <h1>Random Multiple Choice Questions</h1>
@@ -21,9 +27,9 @@
     Selected option - <span id="selected"></span><br><br>
     <h3><span id="result">{result here}</span></h4>
     <button class="cta" type="submit" onclick="result()">Submit</button><br><br><button class="cta" onclick="nextqn()">Next</button>
-</div>
+</div><br>
 
-<footer>Copyright © 2021-<span id="yr"> </span></footer>
+    <footer>Copyright © 2021-<span id="yr"> </span> <a href="https://github.com/xpozdrukie"> xpozdrukie</a></footer>
 <script>
     var d = new Date();
     var n = d.getFullYear();

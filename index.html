@@ -23,7 +23,12 @@
     <button class="cta" type="submit" onclick="result()">Submit</button><br><br><button class="cta" onclick="nextqn()">Next</button>
 </div>
 
-
+<footer>Copyright © 2021-<span id="yr"> </span></footer>
+<script>
+    var d = new Date();
+    var n = d.getFullYear();
+    document.getElementById("yr").innerHTML=n;
+</script>
     <script src="app.js"></script>
 </body>
 </html>

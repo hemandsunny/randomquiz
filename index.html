@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomMCQ</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"> 
+</head>
+<body><div class="wrap">
+    <h1>Random Multiple Choice Questions</h1>
+    <h3 id="qn"></h3>
+    <br>
+    <button class="options" id="option0" onclick=clicked(0)></button>
+    <button class="options" id="option1" onclick=clicked(1)></button>
+    <button class="options" id="option2" onclick=clicked(2)></button>
+    <button class="options" id="option3" onclick=clicked(3)></button><br><br>
+    Selected option - <span id="selected"></span><br><br>
+    <h3><span id="result">{result here}</span></h4>
+    <button class="cta" type="submit" onclick="result()">Submit</button><br><br><button class="cta" onclick="nextqn()">Next</button>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
